@@ -15,7 +15,7 @@ Warning:
 
 USE master; -- master database is the main control center of a SQL server instance (server directory)
 GO 
----- 'GO' is a SQL separator, which is telling SQL to firstly excecute the above command, 
+---- 'GO' is a SQL separator, which is telling SQL Server to firstly excecute the above command, 
 ---- then executing the next command.
 
 -- Drop and recreate the 'DataWarehouse' database
