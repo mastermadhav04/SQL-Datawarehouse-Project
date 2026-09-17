@@ -156,9 +156,9 @@ GO
 -- >> Values must not be NULL, zero, or negative.
 -- Expectation: No results
 SELECT DISTINCT
-       sls_sales,
-       sls_quantity,
-       sls_price
+    sls_sales,
+    sls_quantity,
+    sls_price
 FROM silver.crm_sales_details
 WHERE sls_sales <> sls_quantity * sls_price
        OR sls_sales IS NULL OR sls_quantity IS NULL OR sls_price IS NULL
