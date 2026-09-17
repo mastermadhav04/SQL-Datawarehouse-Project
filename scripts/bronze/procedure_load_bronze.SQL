@@ -22,11 +22,11 @@ BEGIN
     BEGIN TRY
         SET @batch_start_time = GETDATE();
         PRINT '===============================================';
-        PRINT 'Loading Bronze Layer' ;
+        PRINT 'Loading Bronze Layer...' ;
         PRINT '===============================================';
     
         PRINT '-----------------------------------------------';
-        PRINT 'Loading CRM tables' ;
+        PRINT 'Loading CRM tables...' ;
         PRINT '-----------------------------------------------';
     
         SET @start_time = GETDATE();
@@ -78,7 +78,7 @@ BEGIN
         PRINT '>> ------------';
     
         PRINT '-----------------------------------------------';
-        PRINT 'Loading ERP tables' ;
+        PRINT 'Loading ERP tables...' ;
         PRINT '-----------------------------------------------';
     
         SET @start_time = GETDATE();
@@ -131,7 +131,7 @@ BEGIN
     
         SET @batch_end_time = GETDATE();
         PRINT '==================================================';
-        PRINT 'Loading Bronze Layer is completed';
+        PRINT 'Loading Bronze Layer is completed.';
         PRINT '>> Total Load Duration: ' + CAST(DATEDIFF(second, @batch_start_time, @batch_end_time) AS NVARCHAR) + ' seconds';
         PRINT '==================================================';
 
@@ -147,6 +147,6 @@ BEGIN
 END
 GO
 
--- executing the stored procedure
+-- Executing the stored procedure
 EXEC bronze.load_bronze
 GO
