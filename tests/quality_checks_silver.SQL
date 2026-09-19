@@ -1,7 +1,7 @@
 /*
-=========================================================================
+============================================================================
 Quality Checks
-=========================================================================
+============================================================================
 Script Purpose:
     This script performs various quality checks for data consistency,
     accuracy, and standardzation across the 'silver' schemas.
@@ -15,7 +15,9 @@ Script Purpose:
 Usage Notes:
     - Run these checks after loading data into Silver layer.
     - Investigate and resolve any discrepancies found during the checks.
-=========================================================================
+
+Remember to edit the script if any new quality check is added to the layer.
+============================================================================
 */
 
 -- ====================================================
