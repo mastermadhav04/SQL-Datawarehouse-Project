@@ -34,5 +34,5 @@ These insights will empower stakeholders with key business metrics, enabling str
 ---- 
 
 ## ✨ About Me
-Hi there ! I am **Madhav Agrawal** , I am an IITian and enthusiastic person to know about data. So this is my first project which I have started learning and building with the help of a tutorial by **Data With Baraa**.
+Hi there ! I am **Madhav Agrawal** , I am an IITian and enthusiastic person to know about data. So this was my first project by which I started learning about data and built it with the help of a tutorial by **Data With Baraa**.
 Hoping to learn much from this project and start building my own projects/ideas from scratch to a beautiful end..
