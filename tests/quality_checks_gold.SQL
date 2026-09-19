@@ -12,6 +12,8 @@ Script Purpose:
 Usage Notes:
     - Run these checks after creating views in the 'gold' layer.
     - Investigate and resolve any discrepancies found during the checks.
+
+Remember to edit the script if any new quality check is added to the layer.
 ===============================================================================
 */
 
