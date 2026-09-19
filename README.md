@@ -50,5 +50,5 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 ## ✨ About Me
-Hi there ! I am **Madhav Agrawal** , I am an IITian and enthusiastic person to know about data. So this was my first project by which I started learning about data and built it with the help of a tutorial by **Data With Baraa**.
+Hey! I am **Madhav Agrawal** , I am an IITian and enthusiastic person to know about data. So this was my first project by which I started learning about data, gained hands-on experience and built it with the help of a tutorial by **Data With Baraa**.
 Hoping to learn much from this project and start building my own projects/ideas from scratch to a beautiful end..
